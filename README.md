@@ -1,0 +1,1 @@
+This is a project where I'll  be working on creating a lookalike version of the Google homepage to ensure I know how to do things.
