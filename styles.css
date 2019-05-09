@@ -1,0 +1,25 @@
+#logo {
+    position: relative;
+    top: 30%;
+    left: 50%;
+}
+#search {
+    height: 34px;
+    width: 414px;
+    padding: 10px;
+
+    position: relative;
+    top: 40%;
+    left: 50%;
+    
+}
+#buttons {
+    padding: 10px 0 10px 0;
+    text-align: center;
+
+    position: relative;
+    left: 50%;
+}
+#center {
+    position: relative;
+}
