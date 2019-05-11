@@ -3,23 +3,57 @@
 
 <head>
     <title>Fake Google!</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
+
+    <div class="navbar">
+        <ul>
+            <div id="navbar-left">
+        <li> <a href="https://www.google.com/intl/en/about/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a> </li>
+        <li> <a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a> </li>
+        </div>
+        <div id="navbar-right">
+        <li> <a href="https://mail.google.com/mail/?tab=wm&authuser=0">Gmail</a></li>
+        <li> <a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0">Images</a></li>
+        </div>
+        </ul>
+    </div>
+
     <div id="center">
     <div id="logo">
-        <img src="Google Logo.png">
+        <img src="Google Logo.png" id="googlogo">
     </div>
-    <div id="search">
+    <div id="searchbar">
         <form>
             <input type="text" name="search" id="search">
         </form>
     </div>
     <div id="buttons">
+        <ul>
+    <li> <div id="submit" class="button">
         <input type="submit" name="submit" id="submit" value="Submit">
+    </div> </li>
+    <li><div id="lucky" class="button">
         <input type="submit" name="lucky" id="lucky" value="I'm Feeling Lucky">
+    </div> </li>
+    </ul>
     </div>
+    </div>
+
+    <div class="footer">
+        <ul>
+    <div id="footer-left">
+        <li><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a> </li>
+        <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a> </li>
+    </div>
+    <div id="footer-right">
+        <li><a href="https://www.google.com/intl/en_us/policies/privacy/?fg=1">Privacy</a> </li>
+        <li><a href="https://www.google.com/intl/en_us/policies/terms/?fg=1">Terms</a> </li>
+        <li><a href="https://www.google.com/preferences?hl=en">Settings</a> </li>
+    </div>
+        </ul>
     </div>
 </body>
 
